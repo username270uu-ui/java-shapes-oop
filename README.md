@@ -24,7 +24,9 @@ circle 22.5
 cube 23.6
 ## How to Run
 
-javac -d bin src/oop_project/*.java
+Keep input.txt in a src folder next to the .java files, then:
+
+javac -d bin *.java
 java -cp bin oop_project.TestDriver
 ## Sample Output
 
